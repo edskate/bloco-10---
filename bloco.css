@@ -1,0 +1,29 @@
+img{
+    max-width: 100%;
+    margin: 10%;
+  }
+  .bloco {
+    width: 250px;
+    margin: 15px;
+  }
+  .bloco img{
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+  
+    box-shadow: 10px 10px 10px  rgba(0,0,0,0.6);
+    -webkit-box-shadow: 10px 10px 10px  rgba(0,0,0,0.6);
+  
+    border-top-left-radius: 15px; 
+    border-top-right-radius: 120px 30px; 
+    border-bottom-left-radius: 120px 30px;
+    border-bottom-right-radius: 15px;
+  }
+  .bloco img:hover {
+    border-top-left-radius: 30px 120px; 
+    border-bottom-right-radius: 30px 120px;
+    border-bottom-left-radius: 15px; 
+    border-top-right-radius: 15px;
+  
+    box-shadow: 10px 10px 10px  rgba(205, 92, 92,0.6);
+    -webkit-box-shadow: 10px 10px 10px  rgba(205, 92, 92,0.6);
+  }
